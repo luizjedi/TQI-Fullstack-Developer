@@ -25,4 +25,5 @@ function soma(num_a, num_b) {
 }
 
 // Utilizando função
-soma(54,6);
+soma(54, 6);
+
