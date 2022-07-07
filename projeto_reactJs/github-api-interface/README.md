@@ -18,7 +18,7 @@ We will create an application using the github public api.
 
 Print of the finished project.
 
-![plot](./image/snapshot-1.png)
+![plot](./image/overview.png)
 
 ### Libraries used
 
@@ -30,6 +30,7 @@ Print of the finished project.
 
 In the project directory, you can run:
 
+### `nvm install('use' if already installed) 16.15.1`
 ### `npm start`
 
 Runs the app in the development mode.\

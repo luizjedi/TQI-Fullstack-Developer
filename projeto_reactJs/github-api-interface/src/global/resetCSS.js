@@ -1,5 +1,5 @@
 import { createGlobalStyle } from "styled-components";
-import background from "/home/luizjedi/Projetos/BootCamp-TQI/Modulo IV - Reactjs/projeto_reactJs/github-api-interface/src/image/background.jpg";
+import img from "../image/git2.png";
 
 export const ResetCSS = createGlobalStyle`
 
@@ -41,7 +41,7 @@ html {
 body {
   margin: 0;
   font-family: roboto,sans-serif;
-  background-image: url(${background});
+  background-image: url(${img});
   background-size: cover;
   background-position: center top;
   

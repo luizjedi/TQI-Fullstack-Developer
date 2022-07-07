@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import img from "../../image/background.jpg"
 
 export const Wrapper = styled.div`
   padding: 8px;
@@ -9,6 +10,8 @@ export const Wrapper = styled.div`
   height: 150px;
   align-content: center;
   background-color: darkgray;
+  background-image: url(${img});
+  background-size: cover;
 `;
 
 export const WrapperTitle = styled.h2`
@@ -16,7 +19,7 @@ export const WrapperTitle = styled.h2`
   font-size: 18px;
   font-weight: bold;
   margin: 8px 0;
-  color: #4b6097;
+  color: #e19042;
 `;
 
 export const WrapperFullName = styled.h2`
